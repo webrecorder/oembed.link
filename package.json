@@ -1,0 +1,13 @@
+{
+  "name": "oembedlink",
+  "version": "1.0.0",
+  "description": "Render Oembed embeds using standard list of providers",
+  "main": "index.js",
+  "repository": "https://github.com/webrecorder/oembed.link",
+  "author": "Webrecorder Software",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "micromatch": "^4.0.2"
+  }
+}
