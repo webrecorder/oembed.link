@@ -162,7 +162,7 @@ This URL may not be publicly embeddable. See the <a href"/">list of support prov
 <!doctype html>
 <html>
   <head>
-    <title>${oembed.title}</title>
+    ${oembed.title? `<title>${oembed.title}</title>` : ``}
   </head>
   <body>
     <div style="${style}">
