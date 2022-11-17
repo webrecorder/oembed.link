@@ -165,7 +165,7 @@ This URL may not be publicly embeddable. See the <a href"/">list of support prov
     ${oembed.title? `<title>${oembed.title}</title>` : ``}
   </head>
   <body>
-    <div style="${style}">
+    <div style="${style} display: flex; justify-content: center;">
       ${oembed.html}
     </div>
   </body>
