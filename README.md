@@ -10,36 +10,18 @@ The script uses the oEmbed providers JSON, [https://oembed.com/providers.json](h
 
 The source for the oembed.com site can be found at: [https://github.com/iamcal/oembed](https://github.com/iamcal/oembed)
 
-#### Building for development
-
-1. Install Wrangler locally if you don't have it installed already using [Homebrew](https://brew.sh/) (shown here) or your package manager of choice.
-
-```shell
-brew install cloudflare-wrangler
-```
-
-2. Copy `wrangler.sample.toml` to `wrangler.toml`.
-
-```shell
-cp wrangler.sample.toml wrangler.toml
-```
-
-3. Run the dev server.
-
-```shell
-wrangler dev
-```
-
-4. Navigate to http://localhost:8787 and start building!
-
-#### Deployment (via Cloudflare Workers)
-
 The system is designed to run as a [Cloudflare Worker](https://workers.cloudflare.com/). See [Cloudflare Docs](https://developers.cloudflare.com/workers/learning/getting-started) for more info on how to use this service.
 
+#### Building
 
-1. Copy `wrangler.sample.toml` to `wrangler.toml`.
+1. Install Wrangler 2 locally, eg. with `npm -g i wrangler` or `yarn global add wrangler`
 
-2. Fill in account id.
 
-3. Run `wrangler publish` to run on Cloudflare.
+2. Run the dev server with `wrangler dev` to test locally. You may be prompted to login to Cloudflare to authenticate.
+
+
+3. Navigate to `http://localhost:8787/[URL]` to load the oEmbed view of `[URL]` via the local dev server.
+
+
+4. Run `wrangler publish` to publish the worker code to Cloudflare.
 

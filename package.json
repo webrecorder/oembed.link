@@ -1,6 +1,6 @@
 {
   "name": "oembedlink",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Render Oembed embeds using standard list of providers",
   "main": "index.js",
   "repository": "https://github.com/webrecorder/oembed.link",
