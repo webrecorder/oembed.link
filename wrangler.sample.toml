@@ -1,4 +1,0 @@
-name = "oembedlink"
-type = "webpack"
-account_id = "<account id>"
-workers_dev = true

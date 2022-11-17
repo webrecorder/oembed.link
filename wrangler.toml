@@ -1,0 +1,5 @@
+name = "oembedlink"
+main = "index.js"
+workers_dev = true
+compatibility_date = "2022-11-17"
+node_compat = true
